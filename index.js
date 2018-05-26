@@ -1,6 +1,14 @@
-const cli = require('commander'),
-  {prompt} = require('inquirer');
+const cli = require('./lib/Cli');
 
+cli.promptGithub()
+  .then(results => cli.searchTweets())
+  .then(results => cli.displayResults())
+  .then(cli.run)
+  .catch(e => {
+    throw new Error(e)
+  });
+
+/**
 const questions = [
     {
       type : 'input',
@@ -56,3 +64,4 @@ cli.command('search')
   });
 
 cli.parse(process.argv);
+*/
