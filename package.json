@@ -1,0 +1,30 @@
+{
+  "name": "full-stack-backend-code-challenge",
+  "version": "0.0.1",
+  "description": "Tech Test for SportDec (github:VenueOne)",
+  "main": "server.js",
+  "engines": "^9.2.1",
+  "scripts": {
+    "start": "node index.js search",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daithi-coombes/full-stack-backend-code-challenge.git"
+  },
+  "keywords": [
+    "tech",
+    "test",
+    "foobar"
+  ],
+  "author": "daithi coombes <webeire@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daithi-coombes/full-stack-backend-code-challenge/issues"
+  },
+  "homepage": "https://github.com/daithi-coombes/full-stack-backend-code-challenge#readme",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "inquirer": "^5.2.0"
+  }
+}
