@@ -6,7 +6,7 @@
   "engines": "^9.2.1",
   "scripts": {
     "start": "node index.js search",
-    "test": "node ./node_modules/.bin/mocha ./test"
+    "test": "node ./node_modules/.bin/mocha ./test/**/*_test.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/daithi-coombes/full-stack-backend-code-challenge#readme",
   "dependencies": {
+    "assert": "^1.4.1",
     "bluebird": "^3.5.1",
     "commander": "^2.15.1",
     "inquirer": "^5.2.0",

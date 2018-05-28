@@ -1,4 +1,4 @@
-describe('CLI', function(){
+describe.skip('CLI', function(){
 
   it('will prompt github', function(done){
 
