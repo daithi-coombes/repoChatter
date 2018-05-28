@@ -18,7 +18,7 @@ describe('Github Consumer', function(){
     assert.equal(underTest.endpoint, config.endpoint);
   });
 
-  it.only('will search repositories', function(done){
+  it('will search repositories', function(done){
 
     const expected = require('./fixtures/ConsumerGithub_return.json');
 
