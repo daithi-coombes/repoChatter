@@ -6,7 +6,6 @@ describe('Github Consumer', function(){
 
   let underTest,
     config = {
-      // endpoint: 'https://api.github.com',
       endpoint: 'http://example.com',
     };
 
