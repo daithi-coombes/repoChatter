@@ -26,7 +26,7 @@
                                 "result_type": "popular",
                                 "iso_language_code": "en"
                         },
-                        "source": "<a href="https://www.sprinklr.com" rel="nofollow">Sprinklr</a>",
+                        "source": "<a href='https://www.sprinklr.com' rel='nofollow'>Sprinklr</a>",
                         "in_reply_to_status_id": null,
                         "in_reply_to_status_id_str": null,
                         "in_reply_to_user_id": null,
@@ -131,7 +131,7 @@
                                 "result_type": "popular",
                                 "iso_language_code": "en"
                         },
-                        "source": "<a href="https://www.sprinklr.com" rel="nofollow">Sprinklr</a>",
+                        "source": "<a href='https://www.sprinklr.com' rel='nofollow'>Sprinklr</a>",
                         "in_reply_to_status_id": null,
                         "in_reply_to_status_id_str": null,
                         "in_reply_to_user_id": null,
@@ -236,7 +236,7 @@
                                 "result_type": "popular",
                                 "iso_language_code": "en"
                         },
-                        "source": "<a href="https://www.sprinklr.com" rel="nofollow">Sprinklr</a>",
+                        "source": "<a href='https://www.sprinklr.com' rel='nofollow'>Sprinklr</a>",
                         "in_reply_to_status_id": null,
                         "in_reply_to_status_id_str": null,
                         "in_reply_to_user_id": null,
@@ -341,7 +341,7 @@
                                 "result_type": "popular",
                                 "iso_language_code": "ja"
                         },
-                        "source": "<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>",
+                        "source": "<a href='http://twitter.com' rel='nofollow'>Twitter Web Client</a>",
                         "in_reply_to_status_id": null,
                         "in_reply_to_status_id_str": null,
                         "in_reply_to_user_id": null,
@@ -454,7 +454,7 @@
                                 "result_type": "popular",
                                 "iso_language_code": "en"
                         },
-                        "source": "<a href="https://studio.twitter.com" rel="nofollow">Media Studio</a>",
+                        "source": "<a href='https://studio.twitter.com' rel='nofollow'>Media Studio</a>",
                         "in_reply_to_status_id": null,
                         "in_reply_to_status_id_str": null,
                         "in_reply_to_user_id": null,
