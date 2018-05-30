@@ -1,12 +1,15 @@
 const cli = require('./lib/Cli');
 
-cli.promptGithub()
-  .then(results => cli.searchTweets())
-  .then(results => cli.displayResults())
-  .then(cli.run)
-  .catch(e => {
-    throw new Error(e)
-  });
+const results = require('./test/lib/fixtures/CliTweets_return.json');
+cli.displayResults(results);
+
+// cli.promptGithub()
+//   .then(results => cli.searchTweets())
+//   .then(results => cli.displayResults())
+//   .then(cli.run)
+//   .catch(e => {
+//     throw new Error(e)
+//   });
 
 /**
 const questions = [

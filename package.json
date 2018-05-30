@@ -32,6 +32,7 @@
     "inquirer": "^5.2.0",
     "mocha": "^5.2.0",
     "nock": "^9.2.6",
-    "rewire": "^4.0.1"
+    "rewire": "^4.0.1",
+    "test-console": "^1.1.0"
   }
 }
