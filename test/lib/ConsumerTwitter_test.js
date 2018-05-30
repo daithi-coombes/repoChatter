@@ -44,10 +44,10 @@ describe('Twitter Consumer', function(){
       .catch(done);
   });
 
-  it.only('will search for tweets', function(done){
+  it('will search for tweets', function(done){
 
     const expectedTwitter = require('./fixtures/TwitterSearch.json'),
-      expectedHeader = 'Bearer ' + new Buffer(`${config.key}:${config.secret}`).toString('base64');
+      expectedHeader = 'Bearer ' + require('./fixtures/TwitterToken.json').access_token;
     let headers;
 
     nock(config.endpoint)
