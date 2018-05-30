@@ -25,11 +25,13 @@
   "homepage": "https://github.com/daithi-coombes/full-stack-backend-code-challenge#readme",
   "dependencies": {
     "assert": "^1.4.1",
+    "async": "^2.6.1",
     "axios": "^0.18.0",
     "bluebird": "^3.5.1",
     "commander": "^2.15.1",
     "inquirer": "^5.2.0",
     "mocha": "^5.2.0",
-    "nock": "^9.2.6"
+    "nock": "^9.2.6",
+    "rewire": "^4.0.1"
   }
 }
